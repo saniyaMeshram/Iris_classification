@@ -23,7 +23,7 @@ if st.button('predict'):
                          petal_length,
                          petal_width]]).astype(np.float64)
   prediction =model.predict(input.data)
-  st.success(f'The predicted Iris Species is: {prediction[0}')
+  st.success(f'The predicted Iris Species is: {prediction[0]}')
                          
                          
                          
